@@ -1,15 +1,12 @@
 {
-  "name": "@jsdb/server",
+  "name": "jsdb",
   "version": "0.0.17",
-  "description": "Install jsdb server ```shell npm i @jsdb/server ```",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "node api.test.js",
     "start": "node server.js"
   },
-  "author": "jpcapdevila",
-  "license": "SSPL",
   "dependencies": {
     "@jsdb/sdk": "^0.0.36",
     "acorn": "^8.7.1",
